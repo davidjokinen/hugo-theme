@@ -25,6 +25,12 @@ module.exports = {
 					fallback: 'style-loader',
 					use: 'css-loader?importLoaders=1!postcss-loader'
 				})
+			},
+			{
+				test: /\.(woff|woff2|eot|ttf|otf)$/,
+				use: [
+					'file-loader?outputPath=./css/&publicPath=/dist/&name=[name].[hash].[ext]'
+				]
 			}
 		]
 	},

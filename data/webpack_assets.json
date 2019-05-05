@@ -1,6 +1,11 @@
 {
   "app": {
     "js": "js/app.3fc0f988d21662902933.js",
-    "css": "css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css"
+    "css": "css/app.5f1f302c0a79955358760fad848f4e2d.css"
+  },
+  "": {
+    "eot": "./css/langdon-webfont.806865f4188d420e4766fe5763e4e569.eot",
+    "ttf": "./css/langdon-webfont.3bda26655ea838fae595aa9ddfad4883.ttf",
+    "woff": "./css/langdon-webfont.03b71c994b4ac853cdbb607561f522e1.woff"
   }
 }
